@@ -1,0 +1,19 @@
+[package]
+name = "pbr"
+version = "0.1.0"
+description = "Pushbullet api wrapper."
+readme = "README.md"
+repository = ""
+license = "MIT"
+authors = ["James Kominick <james.kominick@gmail.com>"]
+
+[lib]
+name = "pbr"
+path = "src/lib.rs"
+
+[dependencies]
+reqwest = "0.2"
+json = "0.11.5"
+dotenv = "0.8"
+error-chain = "0.7"
+time = "*"
